@@ -1,12 +1,16 @@
 # Terminal
 
 ## Font Resizing
-- `<CTRL><SHIFT>=` (i.e., `<CTRL>+`): Increase font size
-- `<CTRL>-`: Decrease Font Size
+| Keystroke | Action |
+| - | - |
+| `<CTRL><SHIFT>=` | Increase font size |
+| `<CTRL>-` | Decrease Font Size |
+
+**Note:** `<SHIFT>=` is `+`, hence `<CTRL><SHIFT>=` is really `<CTRL>+`.
 
 ## tmux
 
-[Here](https://tmuxcheatsheet.com/) is a helpful tmux cheatsheet.
+A helpful tmux cheatsheet can be found [here](https://tmuxcheatsheet.com/).
 
 ### Kill Tmux Server
 From within tmux session:
