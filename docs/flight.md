@@ -43,7 +43,7 @@ Note: FOD can get pulled into the props during takeoff / liftoff thus pose a ser
 
 ## 4. Power on Drone
 
-1. Attach a LiPo battery beeper to the 4S and 6S battery you will use to power the drone. Ensure the battery voltages are within expected ranges.
+1. Attach a LiPo battery beeper to the `4S` and `6S` battery you will use to power the drone. Ensure the battery voltages are within expected ranges.
 
 | LiPo Cells | Min Voltage | Max Voltage |
 | - | - | - |
@@ -58,15 +58,15 @@ References: [[1]](https://en.wikipedia.org/wiki/Lithium_polymer_battery#Voltage_
 
 **Caution:** For battery health and safety, **NEVER** let LiPo batteries get to 3.2-3.3V. If a battery gets into (or below) this voltage range, it needs be properly disposed of. Handle with care!
 
-2. Connect the `4S` battery to electronics (e.g., the computer). Press the power button on the Intel NUC to power on the CPU (the power button should glow indicating it is on).
-   - If you're not sure XT60 connector is the electronics (as opposed to the drone), ask -- a mistake here can damage expensive equipment!
-3. Confirm the flight space is free of unneccessary personal. For safety, loudly announce you are powering on the drone to ensure everyone is aware.
-4. Connect the `6S` battery to the drone's power distribution board.
-   - It is fine to power the electronics (e.g., the computer) outside the flight space. However, the drone's power distribution board - and therefore its **props and motors** - should **NEVER** be powered outside the designated flight area. Even with safeguards to prevent unintentional spinning, powered motors must always be treated as if they could start at any moment.
-5. Ensure battery velcro straps are snug. Batteries falling off the drone in flight means a drone crash!
-6. Seal the flight nets, confirm all personal have left the flight space, and seal the control room net.
-
+2. Attach the batteries to the drone in the correct configuration: the `4S` battery's female XT60 connector should align with the electronics' male XT60 connector, and the `6S` battery's female XT60 connector should align with the drone power distribution board's male XT60 connector. Confirm velcro is snug.
 ![](./imgs/drone-batteries.png)
+3. Connect the `4S` battery to electronics (e.g., the computer). Press the power button on the Intel NUC to power on the CPU (the power button should glow indicating it is on).
+   - If you're not sure XT60 connector is the electronics (as opposed to the drone), ask -- a mistake here can damage expensive equipment!
+4. Confirm the flight space is free of unnecessary personnel. For safety, loudly announce you are powering on the drone to ensure everyone is aware.
+5. Connect the `6S` battery to the drone's power distribution board.
+   - It is fine to power the electronics (e.g., the computer) outside the flight space. However, the drone's power distribution board - and therefore its **props and motors** - should **NEVER** be powered outside the designated flight area. Even with safeguards to prevent unintentional spinning, powered motors must always be treated as if they could start at any moment.
+6. Ensure battery velcro straps are still snug after connecting power. Batteries falling off the drone in flight means a drone crash!
+7. Seal the flight nets, confirm all personnel have left the flight space, and seal the control room net.
 
 ## 5. Power on RC Transmitter
 
@@ -104,7 +104,7 @@ Technically, you do not need to run QGroundControl, but it does provide some use
 
 ## 7. Final Safety Check
 
-1. Confirm flight space is clear of personal.
+1. Confirm flight space is clear of personnel.
 2. Confirm the flight space and control room nets are secured.
 3. Confirm the operator has the correct RC transmitter, it is powered on, in the right mode, and they are wearing the lanyard.
 4. Confirm the RC transmitter switches are in the correct configuration.
@@ -121,7 +121,7 @@ Technically, you do not need to run QGroundControl, but it does provide some use
    - Move SA middle for `offboard mode` (flying via autonomy code)
 3. Arm the drone
    - Move SF up
-4. Gentle ease up on the throttle to take off. The drone may disarm automatically if no change in throttle is detected after a few seconds. Recommend starting over from 1.
+4. Gently ease up on the throttle to take off. The drone may disarm automatically if no change in throttle is detected after a few seconds. Recommend starting over from 1.
 5. Make sure to be hovering (i.e., not climbing or descending) before moving in the `xy`-plane.
 6. Perform your flight, remembering to be gentle while getting your bearings.
 
@@ -143,3 +143,6 @@ Technically, you do not need to run QGroundControl, but it does provide some use
 - Return batteries to the appropriate charge / discharge bins. Remove beepers and return to bag. If possible, charge the batteries used to replace what you used.
 - Return drone, RC transmitter, and telemetry radio to original location
 - Turn off mocap
+
+## Checklist
+Refer to abridged checklist [here](./flight-checklist.md).
