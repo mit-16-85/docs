@@ -63,7 +63,7 @@ References: [[1]](https://en.wikipedia.org/wiki/Lithium_polymer_battery#Voltage_
 3. Confirm the flight space is free of unneccessary personal. For safety, loudly announce you are powering on the drone to ensure everyone is aware.
 4. Connect the `6S` battery to the drone's power distribution board.
    - It is fine to power the electronics (e.g., the computer) outside the flight space. However, the drone's power distribution board - and therefore its **props and motors** - should **NEVER** be powered outside the designated flight area. Even with safeguards to prevent unintentional spinning, powered motors must always be treated as if they could start at any moment.
-5. Ensure battery velcro straps are snug. Batteries falling off drone in flight means the drone will crash!
+5. Ensure battery velcro straps are snug. Batteries falling off the drone in flight means a drone crash!
 6. Seal the flight nets, confirm all personal have left the flight space, and seal the control room net.
 
 ![](./imgs/drone-batteries.png)
@@ -108,7 +108,7 @@ Technically, you do not need to run QGroundControl, but it does provide some use
 2. Confirm the flight space and control room nets are secured.
 3. Confirm the operator has the correct RC transmitter, it is powered on, in the right mode, and they are wearing the lanyard.
 4. Confirm the RC transmitter switches are in the correct configuration.
-5. Confirm no batteries are beepiing.
+5. Confirm no batteries are beeping.
 6. Confirm all computer readouts look good.
 7. Loudly announce to the flight space: "Taking off!"
 
