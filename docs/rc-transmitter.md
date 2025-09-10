@@ -1,7 +1,6 @@
 # RC Transmitter
 
 ![](./imgs/FrSky-Access-Taranis-X9D-Plus-Layout-768x475.png)
-[Image Source](https://device.report/manual/342515)
 
 ## J1
 | Position | Command |
