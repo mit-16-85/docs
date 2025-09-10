@@ -1,6 +1,6 @@
-## Flight
+# Flight
 
-### Step 1: Move Drone to Flight Space
+## Step 1: Move Drone to Flight Space
 
 1. Place drone in the flight space on a table. **DO NOT POWER ON YET.**
 2. Initial Safety Check:
@@ -10,14 +10,14 @@
 
 Note: FOD can get pulled into the props during takeoff / liftoff thus pose a serious safety concern!
 
-### Step 2: Mocap
+## Step 2: Mocap
 
 1. Flip the mocap power strip switch.
    ![](./imgs/mocap-power-strip.png)
 2. Configure mocap software on `AMSTRONG`.
    ![](./imgs/amstrong-vicon-tracker.png)
 
-### 3. Setup `aldrin`
+## 3. Setup `aldrin`
 
 1. Login to `aldrin` as `mit-1685`.
 2. Connect the correct telemetry radio for your drone (e.g., `BD03`) into a free USB port on `aldrin`. The telemetry radios are stored in the rolling cabinet next to `AMSTRONG`. Only one telemetry radio should be connected to `aldrin` at a time.
@@ -41,7 +41,7 @@ Note: FOD can get pulled into the props during takeoff / liftoff thus pose a ser
    ```
    See some terminal tips [here](./terminal.md).
 
-### 4. Power on Drone
+## 4. Power on Drone
 
 1. Attach a LiPo battery beeper to the 4S and 6S battery you will use to power the drone. Ensure the battery voltages are within expected ranges.
 
@@ -68,7 +68,7 @@ References: [[1]](https://en.wikipedia.org/wiki/Lithium_polymer_battery#Voltage_
 
 ![](./imgs/drone-batteries.png)
 
-### 5. Power on RC Transmitter
+## 5. Power on RC Transmitter
 
 1. Fetch the correct FrSky Taranis X9D (e.g. `PX04`).
    ![](./imgs/rc-transmitter-location.png)
@@ -88,7 +88,7 @@ References: [[1]](https://en.wikipedia.org/wiki/Lithium_polymer_battery#Voltage_
 
 5. Power on the controller. Click through alerts. On the display, confirrm battery is above 50% and the profile is set to `cap`.
 
-### 6. Run Drone Code
+## 6. Run Drone Code
 
 1. Open another terminal on `aldrin`. Connect to the drone and run the following command with:
    ```
@@ -102,7 +102,7 @@ References: [[1]](https://en.wikipedia.org/wiki/Lithium_polymer_battery#Voltage_
 
 Technically, you do not need to run QGroundControl, but it does provide some useful diagnostic tools, so we recommend using it.
 
-### 7. Final Safety Check
+## 7. Final Safety Check
 
 1. Confirm flight space is clear of personal.
 2. Confirm the flight space and control room nets are secured.
@@ -112,7 +112,7 @@ Technically, you do not need to run QGroundControl, but it does provide some use
 6. Confirm all computer readouts look good.
 7. Loudly announce to the flight space: "Taking off!"
 
-### 8. Flying
+## 8. Flying
 
 1. Undo the Kill Switch
    - Move SD up (away from pilot)
@@ -125,7 +125,7 @@ Technically, you do not need to run QGroundControl, but it does provide some use
 5. Make sure to be hovering (i.e., not climbing or descending) before moving in the `xy`-plane.
 6. Perform your flight, remembering to be gentle while getting your bearings.
 
-### 9. Landing
+## 9. Landing
 
 1. Navigate to above the desired landing location.
 2. Gently ease up on the throttle to land.
@@ -136,7 +136,7 @@ Technically, you do not need to run QGroundControl, but it does provide some use
    - **Kill Switch Enabled:** SD down
 4. Once the Kill switch is thrown, you can terminate any software and disconnect any batteries. Always disconnect the 6S battery first to ensure the motors are depowered as soon as possible.
 
-### 10. Cleanup
+## 10. Cleanup
 
 - Close all applications on `aldrin`, back up any data files you may need, and log off.
 (Note: `aldrin` is a shared computer. Once you log off, there is no guarantee that any programs you left running or files stored locally will remain as you left them.)
