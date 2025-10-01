@@ -20,7 +20,7 @@ Note: FOD can get pulled into the props during takeoff / liftoff thus pose a ser
 ## 3. Setup `aldrin`
 
 1. Login to `aldrin` as `mit-1685`.
-2. Connect the correct telemetry radio for your drone (e.g., `BD03`) into a free USB port on `aldrin`. The telemetry radios are stored in the rolling cabinet next to `AMSTRONG`. Only one telemetry radio should be connected to `aldrin` at a time.
+2. Connect the correct telemetry radio for your drone (e.g., `BD03` for `d01` and `BD03_2` for `d02`) into a free USB port on `aldrin`. The telemetry radios are stored in the rolling cabinet next to `AMSTRONG`. Only one telemetry radio should be connected to `aldrin` at a time.
    ![](./imgs/telemetry-radio-drawer.png)
    ![](./imgs/correct-telemetry-radio.png)
    ![](./imgs/telemetry-radio-aldrin.png)
@@ -70,7 +70,7 @@ References: [[1]](https://en.wikipedia.org/wiki/Lithium_polymer_battery#Voltage_
 
 ## 5. Power on RC Transmitter
 
-1. Fetch the correct FrSky Taranis X9D (e.g. `PX04`).
+1. Fetch the correct FrSky Taranis X9D (e.g. `PX04` for `d01`, `PX05` for `d02`).
    ![](./imgs/rc-transmitter-location.png)
 2. An operator needs to be wearing the lanyard the entire time the controller is powered on. For safety, removing the lanyard means powering off the controller.
    ![](./imgs/rc-transmitter-power-on.png)
@@ -94,7 +94,7 @@ References: [[1]](https://en.wikipedia.org/wiki/Lithium_polymer_battery#Voltage_
    ```
    # terminal 4
    ssh d01
-   dynus
+   go_drone
    ```
    Note although all terminal windows are running on `aldrin`, terminals 1-3 are running software directly on `aldrin`, while terminal 4 is running software on the drone.
 2. Confirm terminal output looks normal:
