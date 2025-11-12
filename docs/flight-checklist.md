@@ -43,6 +43,7 @@ Refer to longform documentation [here](./flight.md).
 - [ ] Power RC Transmitter
     - [ ] Fetch correct RC Transmitter
     - [ ] Decide an operator, lanyard stays on operator's neck at all times
+    - [ ] Ensure RC Transmitter battery is above 50%
     - [ ] Review RC Transmitter controls
     - [ ] Confirm Kill switch is clearly denoted with tape or some other marking
     - [ ] Confirm switches are in correct positions
@@ -62,6 +63,7 @@ Refer to longform documentation [here](./flight.md).
     ```
     - [ ] Confirm terminal output is normal
     - [ ] Confirm QGroundControl has Green status (this may take a minute)
+    - [ ] With drone disarmed and kiled, shake the drone gently to initialize DLIO
 
 ## Pre-Flight :: Final Safety Check
 - [ ] Confirm flight space is clear of personnel
